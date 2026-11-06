@@ -8,51 +8,115 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+Hi! I'm **Nafis Nur**, an Electrical and Electronic Engineering (EEE) graduate from **Ahsanullah University of Science and Technology (AUST)**, Dhaka, specializing in **VLSI and digital design**.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+I work across the hardware stack, from **RTL design in Verilog** through synthesis and physical layout (Cadence Genus and Innovus) down to **transistor-level CMOS and SRAM circuits** in Cadence Virtuoso. I'm currently a **Research Assistant** on a joint AKIJ Motors–AUST project converting combustion-engine vehicles to electric, where I model and simulate EV battery systems.
 
+I'm especially interested in **memory circuits, computer architecture, and hardware security**, and I'm building research experience toward graduate study. Feel free to reach me at **nafisnur21@gmail.com**.
+
+# 🔬 Research Interests
+
+- **VLSI & digital design**: RTL design, synthesis, and physical implementation
+- **Memory circuits**: SRAM cell design, stability, and low-power operation
+- **Computer architecture & hardware security**: memory systems and how hardware can be attacked and protected
+- **Battery management systems**: battery modelling, state-of-health and remaining-useful-life estimation
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📝 Publications 
+- *2026.11*: Launched this website!
+- *2026.10*: Graduated with a B.Sc. in EEE from AUST.
+- *2026.[MM]*: 🏆 Won **Champion** at the Final Year Poster Exhibition and Presentation.
+- *2026.07*: Joined the AKIJ Motors–AUST ICE-to-EV conversion project as a Research Assistant.
+- *2026.05*: Started an Industrial Attachment at Robi Axiata PLC.
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+# 📝 Publications
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">[VENUE YEAR]</div><img src='images/500x300.png' alt="SPR biosensor" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[A Highly Sensitive SPR Biosensor for Detection of Dengue Infection Using Plasma and Platelet Samples]([LINK TO PAPER])
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+[AUTHOR 1], **Nafis Nur**, [AUTHOR 3]
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- [One sentence on the sensor design and its key result, e.g., its sensitivity value.]
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+# 🛠 Projects
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">B.Sc. Thesis</div><img src='images/500x300.png' alt="Battery management system" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Lightweight Battery Management System Using DRT for Estimating SOH and RUL
+
+**Nafis Nur**, supervised by [SUPERVISOR NAME]
+
+- Built a lightweight battery management approach that uses Distribution of Relaxation Times (DRT) analysis to estimate a battery's state of health (SOH) and remaining useful life (RUL).
+- 🏆 Champion, Final Year Poster Exhibition and Presentation (2026).
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Cadence Virtuoso</div><img src='images/500x300.png' alt="SRAM cells" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Comparative Performance Characterization of 6T–10T SRAM Cells
+
+**Nafis Nur**
+
+- Simulated 6T to 10T SRAM cells in Cadence Virtuoso and compared static noise margin (SNM), access time, and leakage across supply voltages.
+- Analyzed the power–performance trade-off and leakage power of each design.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RTL to Layout</div><img src='images/500x300.png' alt="ATM controller layout" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+ATM Controller Using a Mealy Finite State Machine
+
+**Nafis Nur**
+
+- Designed an ATM controller as a Mealy FSM in Verilog HDL and verified it with a testbench.
+- Took the design through RTL synthesis (Cadence Genus) and physical layout (Cadence Innovus).
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Industry</div><img src='images/500x300.png' alt="EV market analysis" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+EV Market Research & Competitor Analysis
+
+**Nafis Nur**, at AKIJ Motors
+
+- Researched the Bangladesh EV market, comparing competitors' pricing, features, and positioning against Akij EV.
+- Built Excel dashboards to organize the data and support decision-making.
+</div>
+</div>
+
+# 💻 Experience
+
+- *2026.07 - Present*, **Research Assistant**, AKIJ Motors–AUST joint project, Dhaka.
+  - Project: *A low-cost ICE-to-EV conversion for sustainable cities*, funded by the BIRDI Grant Program (SICIP).
+  - Battery modelling and simulation with a focus on battery performance analysis; contributing to powertrain integration and battery system implementation.
+- *2026.05 - 2026.06*, **Industrial Attachment**, Robi Axiata PLC, Dhaka.
+  - Hands-on exposure to telecom operations, regulatory frameworks, and emerging technologies (5G, AI).
+- *2025.09 - 2025.12*, **Battery Management Systems Intern**, AKIJ Motors, Dhaka.
+  - Studied EV battery operation and carried out market and competitor analysis combining technical evaluation with business insight.
+
+# 📖 Education
+
+- *2022 - 2026*, B.Sc. in Electrical and Electronic Engineering, Ahsanullah University of Science and Technology (AUST), Dhaka.
+  - Relevant courses: VLSI I, VLSI II, Digital Logic Design, CMOS Circuits
+- *2018 - 2020*, Higher Secondary Certificate (HSC), Dhaka College, Dhaka. GPA 5.00
+
+# 🧰 Skills
+
+- **Hardware design**: Verilog HDL, VHDL, RTL design, CMOS circuit design, digital logic design
+- **EDA tools**: Cadence Virtuoso, Cadence Genus, Cadence Innovus, ModelSim, Quartus
+- **Simulation & analysis**: MATLAB, LTspice, Proteus, Excel
+- **Languages**: English, Bengali
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2026* **Champion**, Final Year Poster Exhibition and Presentation, AUST.
