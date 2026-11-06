@@ -27,7 +27,7 @@ author:
   location         : "Dhaka, Bangladesh"
   employer         : "Ahsanullah University of Science and Technology"
   pubmed           :
-  googlescholar    : "https://scholar.google.com/citations?user=lHO05x4AAAAJ&hl=en"
+  googlescholar    :  # add later: "https://scholar.google.com/citations?user=YOUR_ID"
   email            : "nafisnur21@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
